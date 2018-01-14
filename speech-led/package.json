@@ -1,0 +1,16 @@
+{
+  "name": "speech-led",
+  "version": "1.0.0",
+  "description": "test the Google Cloud Speech API for the LED project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^1.0.0",
+    "@google-cloud/storage": "^1.5.2",
+    "node-record-lpcm16": "^0.3.0"
+  }
+}

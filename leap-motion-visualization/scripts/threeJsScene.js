@@ -1,8 +1,8 @@
-var scene, camera, renderer;
+let scene, camera, renderer;
 
-var controller, controls;
+let controller, controls;
 
-function init() {
+const init = () => {
     controller = new Leap.Controller();
 
     scene = new THREE.Scene();
@@ -17,10 +17,10 @@ function init() {
     controls.dampening = .99;
     controls.target = new THREE.Vector3(0, 100, 0);
 
-    var geometry = new THREE.BoxGeometry(20, 20, 20);
-    var material = new THREE.MeshNormalMaterial();
+    const geometry = new THREE.BoxGeometry(20, 20, 20);
+    const material = new THREE.MeshNormalMaterial();
 
-    var cube = new THREE.Mesh(geometry, material);
+    const cube = new THREE.Mesh(geometry, material);
     scene.add(cube);
 
     renderer = new THREE.WebGLRenderer();
@@ -31,7 +31,7 @@ function init() {
     controller.connect();
 }
 
-function animate() {
+const animate = () => {
     controls.update();
 
     requestAnimationFrame(animate);

@@ -10,6 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/speech": "^1.0.0",
-    "node-record-lpcm16": "^0.3.0"
+    "johnny-five": "^0.13.0",
+    "node-pixel": "^0.9.3",
+    "node-record-lpcm16": "^0.3.0",
+    "request": "^2.83.0",
+    "sonus": "^0.1.9"
   }
 }

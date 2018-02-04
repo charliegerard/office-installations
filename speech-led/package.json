@@ -14,6 +14,7 @@
     "node-pixel": "^0.9.3",
     "node-record-lpcm16": "^0.3.0",
     "request": "^2.83.0",
+    "snowboy": "^1.2.0",
     "sonus": "^0.1.9"
   }
 }

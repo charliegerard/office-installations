@@ -1,0 +1,28 @@
+.led{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    /* background-color: pink; */
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid green;
+}
+
+.lightPink{
+    /* animation: color-me 0.5s; */
+    background-color: pink;
+}
+
+@keyframes color-me{
+    0% {
+        background: none;
+    }
+
+    50%{
+        background: pink;
+    }
+
+    100%{
+        background: none;
+    }
+}
